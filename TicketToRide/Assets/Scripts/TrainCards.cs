@@ -1,15 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TrainCards : MonoBehaviour {
+public class TrainCards : MonoBehaviour 
+{
+	private int totalCards, pink, white, blue, yellow, orange, black, red, green, rainbow;
+	totalCards = 45;
+	pink = white = blue = yellow = orange = black = red = green = 12;
+	rainbow = 14;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+	public string draw()
+	{
+	 	string card = Random.value()
 	}
 }
